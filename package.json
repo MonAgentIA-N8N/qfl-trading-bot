@@ -1,0 +1,30 @@
+{
+  "name": "qfl-trading-bot",
+  "version": "1.0.0",
+  "description": "Bot de trading QFL avec notifications Telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "trading",
+    "telegram",
+    "bot",
+    "crypto",
+    "forex"
+  ],
+  "author": "QFL Trading",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
